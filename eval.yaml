@@ -1,0 +1,22 @@
+name: eeg2img
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.7
+  - pip
+  - pip:
+      - mne
+      - pyemd
+      - taming-transformers
+      - diffusers
+      - transformers
+      - einops
+      - pytorch-lightning
+      - wandb
+      - einops
+      - pytorch-lightning < 2.0.0   
